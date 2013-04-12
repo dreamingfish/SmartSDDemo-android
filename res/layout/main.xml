@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_weight="0.5" >
+
+            <Button
+                android:id="@+id/Initialization"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:digits="w"
+                android:text="Init" />
+
+            <Button
+                android:id="@+id/RunAPP"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:text="Run App" />
+
+            <Button
+                android:id="@+id/Case1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:text="Case-1" />
+
+            <Button
+                android:id="@+id/Case2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:text="Case-2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_weight="0.5" >
+
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:text="Reset" />
+
+            <Button
+                android:id="@+id/Case3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Case-3" android:layout_weight="0.25"/>
+
+            <Button
+                android:id="@+id/Case4UnEn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Case-4Encrypt" android:layout_weight="0.25"/>
+
+            <Button
+                android:id="@+id/Case4En"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Case-4performance" android:layout_weight="0.25"/>
+        </LinearLayout>
+    </LinearLayout>
+    
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" 
+                >
+
+                <TextView
+                    android:id="@+id/Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Info" />
+
+            </LinearLayout>
+        </ScrollView>
+
+</LinearLayout>
